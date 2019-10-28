@@ -31,8 +31,8 @@
    </target>
    
    <target name = "building_maven"  depends = ""> 
-      <exec dir="./sofa" executable = "cmd" >
-		<arg line="/c mvn package" />
+      <exec dir="./sofa" executable = "mvn" >
+		<arg line="package" />
 	  </exec>		
    </target>
 
